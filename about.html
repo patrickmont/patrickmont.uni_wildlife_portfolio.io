@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Patrick Stewart | Portfolio</title>
+        <meta name="description" content="Wild life Photography Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/tnc3mbd.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">       
+        <script>
+            function openMenu() {
+                document.getElementById('container').style.right="0%";
+                document.getElementById('menu').style.opacity="1";
+            }
+
+            function closeMenu() {
+                document.getElementById('container').style.right="-100%";
+                document.getElementById('menu').style.opacity="0";
+            }
+        </script>
+    </head>
+    <body>
+        <header class="nav">
+            <a class="logo" href="index.html">Patrick <span class="brand">Stewart</span></a>
+            <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+            <div id="container">
+                <div class="layout">
+                    <img class="menu-image" src="assets/home/menu-2.jpg" alt="butterfly on a flower">
+                    <div class="top">
+                        <i class="fa-solid fa-xmark menu-cross" onclick="closeMenu()"></i>
+                    </div>
+                    <div class="middle">
+                        <ul id="menu">
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>    
+                    </div>
+                    <div class="bottom">
+                        <div class="menu-contact">
+                            <p>Get in touch:</p>
+                            <a href="#">07599129960</a><br>
+                            <a href="mailto:p.monteith.dv@gmail.com">p.monteith.dv@gmail.com</a>
+                        </div>        
+                        <div id="menu-socials">
+                            <a href="https://www.instagram.com/p.monteith.dv"><i class="fa-brands fa-instagram social-icons"></i></a>
+                            <a href="https://www.linkedin.com/in/patrick-stewart-70b10a257"><i class="fa-brands fa-linkedin social-icons"></i></a>
+                            <a href="mailto:p.monteith.dv@gmail.com"><i class="fa-regular fa-envelope social-icons"></i></a>
+                        </div>
+                        <p class="copyright">© Patrick Stewart / All Rights Reserved</p>        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+             <section>
+                <div class="contact-contain">
+                    <h1>About</h1>
+                    <div class="content"> 
+                        <img src="assets/about-avatar.jpg" alt="">
+                        <div class="textbox">
+                            <p class="contact-p">I am Patrick Stewart, a wildlife and nature photographer from Dundee, Scotland. My career as a photographer started as a hobby, taking photos of animals and landscapes while travelling the world. After a handful of trips I realised I had amassed a wealth of photos from and began to post my work online. </p>
+                            <p class="contact-p">Eventually I was approached by the RSPB to help with a project documenting Scottish birds. This kickstarted my career as a professional photographer. I have and continue to work with charities in Scotland and around the world. I also work with marine biology researchers in Tayside and St. Andrews documenting dolphins in north east Scotland.</p>
+                        </div>
+                    </div>
+                </div>    
+             </section>
+             <section class="char-cont">
+                <div class="char-info">
+                    <h2 class="support-header">Charities <strong>I Support</strong></h2>
+                    <p>Below are links to some of the charities I support and have worked with over the past couple of years. You can find out more details about what each charity does and how you can help by following the links. Any donations would be greatly appreciated!</p>
+                </div>
+                <div class="char-links">
+                    <div class="ch-logo">
+                        <a href="https://www.rspb.org.uk"><img src="assets/charities/RSPB_logo_2022.svg.png" class="ch-img" alt="rspb logo"></a>
+                        <p>Since the RSPB began in 1889, they've helped declining species and that's still at the heart of what they do. The species of greatest conservation concern and the threats they face may be different now, but the need to help arial wildlife is still urgent. Please help British birds.</p>
+                    </div>
+                    <div class="ch-logo">
+                        <a href="https://www.wwf.org.uk"><img src="assets/charities/WWF.png" class="ch-img" alt="wwf logo"></a>
+                        <p>WWF, are the leading global environmental charity, and they’re bringing our world back to life. With nature in freefall, they’re urgently tackling the underlying causes that are driving the decline, and they’re finding solutions so future generations have a world with thriving habitats and wildlife.</p>
+                    </div>
+                    <div class="ch-logo">
+                        <a href="https://www.rspca.org.uk"><img src="assets/charities/RSPCA.png" class="ch-img" alt="rspca logo"></a>
+                        <p>Through their campaigns they raise standards of care, and awareness of issues, affecting animals today. They rely on your support to help them push for changes in the law to improve the welfare of animals on farms, in labs, in the wild, in paddocks or our homes. Find out how you can help.</p>
+                    </div>
+                </div>
+             </section>
+        </main>
+        <footer class="footer">
+            <div class="contact-info">
+                <a href="#">07599129960</a>
+                <a href="mailto:p.monteith.dv@gmail.com">p.monteith.dv@gmail.com</a>
+            </div>
+            <div id="social-links">
+                <a  href="https://www.instagram.com/p.monteith.dv"><i class="fa-brands fa-instagram social-icons"></i></a>
+                <a href="https://www.linkedin.com/in/patrick-stewart-70b10a257"><i class="fa-brands fa-linkedin social-icons"></i></a>
+                <a href="mailto:p.monteith.dv@gmail.com"><i class="fa-regular fa-envelope social-icons"></i></a>
+            </div>
+            <p class="copyright">© Patrick Stewart / All Rights Reserved</p>
+        </footer>       
+    </body>
+</html>

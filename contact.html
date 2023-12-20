@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Patrick Stewart | Portfolio</title>
+        <meta name="description" content="Wild life Photography Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/tnc3mbd.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">       
+        <script>
+            function openMenu() {
+                document.getElementById('container').style.right='0%';
+                document.getElementById('menu').style.opacity='1';
+            }
+            function closeMenu() {
+                document.getElementById('container').style.right="-100%";
+                document.getElementById('menu').style.opacity="0";
+            }
+        </script>
+    </head>
+    <body>
+        <header class="nav">
+            <a class="logo" href="index.html">Patrick <span class="brand">Stewart</span></a>
+            <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+            <div id="container">
+                <div class="layout">
+                    <img class="menu-image" src="assets/home/menu-2.jpg" alt="butterfly on a flower">
+                    <div class="top">
+                        <i class="fa-solid fa-xmark menu-cross" onclick="closeMenu()"></i>
+                    </div>
+                    <div class="middle">
+                        <ul id="menu">
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>    
+                    </div>
+                    <div class="bottom">
+                        <div class="menu-contact">
+                            <p>Get in touch:</p>
+                            <a href="#">07599129960</a><br>
+                            <a href="mailto:p.monteith.dv@gmail.com">p.monteith.dv@gmail.com</a>
+                        </div>        
+                        <div id="menu-socials">
+                            <a href="https://www.instagram.com/p.monteith.dv"><i class="fa-brands fa-instagram social-icons"></i></a>
+                            <a href="https://www.linkedin.com/in/patrick-stewart-70b10a257"><i class="fa-brands fa-linkedin social-icons"></i></a>
+                            <a href="mailto:p.monteith.dv@gmail.com"><i class="fa-regular fa-envelope social-icons"></i></a>
+                        </div>
+                        <p class="copyright">© Patrick Stewart / All Rights Reserved</p>        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="contact-contain">
+                <h1>Contact</h1>
+                <p class="contact-p">Please get in touch below if you have any queries about licensing my work or you would like me to collaborate on a project. If you would to buy a print of one or more of my photos that can also be arranged by getting in touch below. Please specify the photos in your message.</p>
+                <div class="content">
+                    <img src="assets/contact-photo.jpg" class="contact-img" alt="pigeon in flight">    
+                    <form action="thank-you.html">
+                        <label class="formstyle" for="name">Name:</label><br>
+                        <input class="formstyle" type="text" id="name" name="name" placeholder="Name"><br>
+                        <label class="formstyle" for="email">Email:</label><br>
+                        <input class="formstyle" type="text" id="email" name="email" placeholder="Email"><br>
+                        <label class="formstyle" for="message">Message:</label><br>
+                        <textarea class="messagebox" id="message" name="message" placeholder="Message" rows="10" cols="30"></textarea>
+                        <br>
+                        <input class="submit-btn" type="submit" id="send" value="Send">
+                    </form>
+                </div>
+            </div>          
+        </main>
+        <footer class="footer">
+            <div class="contact-info">
+                <a href="#">07599129960</a>
+                <a href="mailto:p.monteith.dv@gmail.com">p.monteith.dv@gmail.com</a>
+            </div>
+            <div id="social-links">
+                <a  href="https://www.instagram.com/p.monteith.dv"><i class="fa-brands fa-instagram social-icons"></i></a>
+                <a href="https://www.linkedin.com/in/patrick-stewart-70b10a257"><i class="fa-brands fa-linkedin social-icons"></i></a>
+                <a href="mailto:p.monteith.dv@gmail.com"><i class="fa-regular fa-envelope social-icons"></i></a>
+            </div>
+            <p class="copyright">© Patrick Stewart / All Rights Reserved</p>
+        </footer>       
+    </body>
+</html>
